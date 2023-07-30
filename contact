@@ -1,0 +1,204 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, intial-scale-1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Charm&family=Pacifico&family=Prompt:wght@100&family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Faustina&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+	<style>
+	* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    width:100%;
+	height:100vh;
+	background:white;
+	background-size:cover;
+
+}
+
+.logo {
+  color:white;
+  font-size: 40px;
+  text-transform:uppercase;
+  margin-right:30px;
+   font-family: 'Faustina', serif;
+   color:white;
+}
+
+.logo span {
+  color: white;
+}
+
+.menu {
+  background-color: #00ced1;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  
+  
+  position: relative;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li {
+  /* width: 120px; */
+  padding: 10px 30px;
+  /* text-align: center; */
+
+  position: relative;
+}
+
+.menu ul li a {
+  font-size: 15px;
+  color: white;
+  font-weight:bold;
+  text-decoration:none;
+
+  text-transform:uppercase;
+
+  transition: all 0.3s;
+}
+
+.menu ul li a:hover {
+  color:  #e89153;
+}
+
+
+
+main{
+	width:100%;
+	height:85vh;
+	display:flex;
+	align-items:left-side;
+	margin-top:100px;
+	margin-left:150px;
+	color:#191970;
+	font-family: 'charm', cursive;
+	
+}
+section{
+	
+}
+
+
+.content p{
+	margin:30px 0 20px 0;
+	font-size:25px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.con{
+width:60%;
+padding:20px;
+height:60vh;
+margin-left:260px;
+margin-top:30px;
+border:2px solid #191970;
+border-radius:20px;
+}
+.con input{
+  
+    width:100%;
+	height:200px;
+	margin-top:10px;
+	 border:2px solid #191970;
+	 border-radius:10px;
+	 }
+.con label{
+ font-family: 'Charm', cursive;
+	 font-weight:900;
+	 font-size:20px;
+	 color:#19197;
+}
+.b1 button
+{
+ width:90px;
+ text-align:center;
+ height:35px;
+ float:right;
+ 
+ margin-right:230px;
+ border:2px #191970;
+ background: #00ced1;
+ border-radius:10px;
+ color:#191970;
+ font-size:15px;
+ font-weight:700;
+ 
+}
+</style>
+<title>contact</title>
+</head>
+<body>
+<nav>
+<div class="menu">
+<h1 class="logo">wanna know me</h1>
+<ul>
+<li>
+<a href="PF1.html">Home</a>
+</li>
+<li>
+<a href="about.html">about</a>
+</li>
+
+<li>
+<a href="ex.html">skills</a>
+</li>
+<li>
+<a href="con1.html">contact</a>
+</li>
+</ul>
+</div>
+</nav>
+<main>
+<div class="content">
+<p> you can contact me through........
+<br>
+<br>
+
+Contact No: 7842513756
+<br>
+<br>
+
+Email: harinisince2004@gmail.com
+</div>
+<form action="###">
+		<div class="con">
+		  <label> you can use this box...</label>
+		  <br>
+		  <br>
+		  
+		  <input type="text" maxlength="50">
+		  <br>
+		  <br>
+		  <div class="b1">
+		  <button> send<i class="fas fa-paper-plane"></i></button>
+		  </div>
+		</div>
+		</form>
+	   </div>
+
+</main>
+
+
+</body>
+</html>
+
+
